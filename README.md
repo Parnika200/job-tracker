@@ -1,16 +1,73 @@
-# React + Vite
+📊 Job Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Job Tracker web application built using React + Vite + Firebase, designed to help users track job applications, manage statuses, and stay organized during job search.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 https://job-tracker-ten-ecru.vercel.app
 
-## React Compiler
+🛠️ Tech Stack
+⚛️ React.js
+⚡ Vite
+🔥 Firebase (Authentication + Database)
+🎨 CSS / UI Components
+📊 Recharts (for analytics)
+🌐 React Router DOM
+🚀 Vercel (Deployment)
+✨ Features
+🔐 User Authentication (Login / Signup using Firebase)
+➕ Add job applications
+📝 Track application status (Applied, Interview, Selected, Rejected)
+📊 Visual dashboard with charts
+🔍 Easy filtering and tracking
+💾 Real-time data sync with Firebase Firestore
+📱 Fully responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📁 Project Structure
+job-tracker/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── firebase/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── index.html
+⚙️ Installation & Setup
 
-## Expanding the ESLint configuration
+Clone the repository:
+git clone https://github.com/Parnika200/job-tracker.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Go to project directory:
+cd job-tracker
+
+Install dependencies:
+npm install
+
+Run development server:
+npm run dev
+
+Build for production:
+npm run build
+
+Preview production build:
+npm run preview
+
+🔥 Firebase Setup
+Create a .env file in root:
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+
+🚀 Deployment
+This project is deployed using Vercel.
+
+Author : Parnika200
